@@ -1,5 +1,5 @@
 {
-  "name": "next-gsap-scroll-animation",
+  "name": "next-gsap-scroll",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "@next/font": "13.1.6",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "gsap": "^3.12.5",
+    "lodash.throttle": "^4.1.1",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
